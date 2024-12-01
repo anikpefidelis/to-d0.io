@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+
+button{
+    width: 60px;
+    height: 35px;
+    margin: 5px 0 ;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
+button:hover{
+    background-color: #3e8e41;
+}
+
+#task-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li last-child{
+    border-bottom: none;
+}
+
+#task-list li hover{
+    border-bottom: none;
+}
+
+
+
+
+/*Desktop view*/
+@media only screen and (min-width:767px) {
+    form{
+        width: 30%;
+    }
+
+    #task-list{
+        width:30%;
+        margin: 0 auto;
+    }
+}
+    
+
+/*mobile view*/
+@media only screen and (min-width:767px) {
+    form {
+        width: 80%;
+        padding: 1opx;
+    }
+
+    #task-list {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
